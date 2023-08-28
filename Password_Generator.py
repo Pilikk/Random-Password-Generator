@@ -70,14 +70,14 @@ class Ui_MainWindow(object):
         self.Generate_Password_Button.setGeometry(QtCore.QRect(70, 220, 511, 40))
         self.Generate_Password_Button.setStyleSheet("background-color: orange;\n"
 "color:white;\n"
-"font-family:calibri;\n"
+"font-family:arial;\n"
 "font-weight:bold;\n"
 "font-size:20px;\n"
 "border:8px")
         self.Generate_Password_Button.setObjectName("Generate_Password_Button")
         self.Output_Box = QtWidgets.QLineEdit(self.centralwidget)
         self.Output_Box.setGeometry(QtCore.QRect(70, 270, 501, 31))
-        self.Output_Box.setStyleSheet("font-family:calibri;\n"
+        self.Output_Box.setStyleSheet("font-family:arial;\n"
 "font-weight:bold;\n"
 "padding:8px;\n"
 "font-size:18px;\n"
